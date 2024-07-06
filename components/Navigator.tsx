@@ -7,7 +7,7 @@ import SignupScreen from '../screens/Auth/SignupScreen';
 import HomeScreen from '../screens/HomeScreen';
 import JournalListScreen from '../screens/JournalListScreen';
 import JournalEntryScreen from '../screens/JournalEntryScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import SettingsScreen from '../components/SettingsScreen'
 
 const AuthStack = createStackNavigator();
 const MainTab = createBottomTabNavigator();
