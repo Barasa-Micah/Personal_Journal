@@ -10,7 +10,7 @@ const JournalEntryScreen = ({ navigation }) => {
     const response = await mockApiCall({ title, content, category });
     if (response.success) {
       Alert.alert('Save Successful', 'Your journal entry has been saved.');
-      // Navigate back to the home screen or another appropriate screen
+      // Navigating back to the home screen or another appropriate screen
       navigation.navigate('Home');
     } else {
       Alert.alert('Save Failed', 'There was an error saving your journal entry.');
